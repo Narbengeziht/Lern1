@@ -1,0 +1,55 @@
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex2  {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+}
+/* 
+.what-gbo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+} */
+
+.calc-h2 {
+    display: inline-block;
+    text-align: center;  
+}
+
+.calc-wrap {
+   
+}
+
+.popular-myth {
+    display: flex;
+}
+
+.gbo-myth {
+    display: flex;
+    flex-direction: column;
+}
+
+.string1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.string2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
