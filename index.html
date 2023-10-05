@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./style/normalize.css" />
     <link rel="stylesheet" href="./style/index.css" />
   </head>
-  <body class="centered">
+  <body>
     <header>
-      <div class="header-wrap flex">
+      <div class="header-wrap">
         <div class="header_logo">
           <img src="./assets/logo.png" alt="" />
         </div>
@@ -33,7 +33,7 @@
             <li>Что такое гбо</li>
           </ul>
         </div>
-        <div class="banner-body flex">
+        <div class="banner-body">
           <div class="banner-desc">
             <h1>Что такое газобалонное оборудование и зачем оно нужно?</h1>
             <p>
@@ -65,12 +65,12 @@
         </div>
       </section>
       <section class="why-gbo">
-        <div>
+        <div class="why-gbo-text">
             <h2>Зачем ставить ГБО и какие у него плюсы?</h2>
             <p>Перечислим основные причины, по которым ставят газовое оборудование на автомобили:</p>
         </div>
         <div class="why-gbo-wrap">
-        <div class="string1">
+        <div class="why-gbo-block1">
           <div class="why-gbo-item">
             <div class="why-gbo-item-img">
                 <img src="./assets/save-money 1.svg" alt="">
@@ -99,7 +99,7 @@
             </div>    
         </div>
           </div>
-        <div class="string2">  
+        <div class="why-gbo-block2">  
         <div class="why-gbo-item">
             <div class="why-gbo-item-img">
                 <img src="./assets/free-icon-jerrycan-3347952 1.svg" alt="">
@@ -129,10 +129,13 @@
         </div>
         </div>
       </section>
-      <section class="calc calc-h2">
-            <h2>Какой будет экономия?</h2>
-            <p>Вы можете воспользоваться нашим калькулятором, чтобы подсчитать Вашу выгоду</p>
+      <section class="calc">
+        <div class="calc-text">
+            <h2 class="">Какой будет экономия?</h2>
+            <p class="">Вы можете воспользоваться нашим калькулятором, чтобы подсчитать Вашу выгоду</p>
+        </div>    
         <div class="calc-wrap">
+          <div class="calc-string1">
             <div class="calc-item">
                 <h3>Стоимость переоборудования</h3>
                 <p></p>
@@ -143,6 +146,8 @@
                 <p></p>
                 <div class="slider"></div>
             </div>
+          </div>
+          <div class="calc-string2">
             <div class="calc-item">
                 <h3>Расход бензина на 100км</h3>
                 <p></p>
@@ -155,6 +160,8 @@
                 <label for="gas">Газ</label>
                 <input type="text" id="gas" name="gas" required minlength="4" maxlength="8" size="10" />
             </div>
+          </div>
+          <div class="calc-string3">
             <div class="calc-item-radio">
                 <h3>Тип топлива</h3>
                 <div class="form-radio">
@@ -181,6 +188,7 @@
                   <label for="entity">Юридическое лицо</label>  
                 </div>
             </div>
+          </div>
             <div class="calc-item-checkbox">
                 <h3>Программа субсидирования</h3>
                 <label>
@@ -209,12 +217,14 @@
           Популярные мифы о ГБО
         </h2>
         <div class="gbo-myth">
+        <div class="gbo-myth-string1">
           <h3>«ГБО занижает мощность двигателя»</h3>
           <p>Снижение показателей не превышает 6%, что является незначительной потерей на фоне многочисленных преимуществ. Плюс ко всему увеличивается тяга на низких оборотах.</p>
         </div>
-        <div class="gbo-myth">
+        <div class="gbo-myth-string1">
           <h3>«Для ГБО нужно много места»</h3>
           <p>Если устанавливать баллон в багажник, то можно использовать баллон тороидальной формы и установить его на место запаски. Можно рассмотреть вариант установки газового баллона и 2-х под днище автомобиля или вместо запасного колеса, что не противоречит правилам.</p>
+        </div>
         </div>
         <div class="gbo-myth">
           <h3>«Сложности с заправкой»</h3>
