@@ -9,10 +9,13 @@
   </head>
   <body>
     <header>
-      <div class="header-wrap">
+<!-- титульник -->
+      <div class="header-container">
+<!-- иконка -->
         <div class="header_logo">
           <img src="./assets/logo.png" alt="" />
         </div>
+<!-- перечень -->
         <div class="header_menu">
           <ul>
             <li>О платформе</li>
@@ -20,57 +23,69 @@
             <li>Контакты</li>
           </ul>
         </div>
-        <div class="header_panel">
+<!-- кнопка выход -->
+        <div class="header_exit">
           <button>Вход</button>
         </div>
       </div>
     </header>
+<!-- тело -->
     <main>
+<!-- баннер контейнер -->
       <section class="banner">
+<!-- крошки -->
         <div class="breadcrumps">
           <ul>
             <li>Главная</li>
             <li>Что такое гбо</li>
           </ul>
         </div>
-        <div class="banner-body">
-          <div class="banner-desc">
+<!-- баннер тело -->
+        <div class="banner-container">
+          <div class="banner-body">
             <h1>Что такое газобалонное оборудование и зачем оно нужно?</h1>
             <p>
               Газовое топливо является самым экономичным и экологически чистым
               видом топлива на данный момент
             </p>
+<!-- кнопки баннера -->
             <button class="details"></button>
             <button class="arrow"></button>
             <button classs="arrow"></button>
           </div>
+<!-- баннер картинка -->
           <div class="banner-picture">
             <img src="./assets/989d4c772a3b0a4f1f19e73a4d34feaf.png" alt="">
           </div>
         </div>
+<!-- промо слайды -->
         <div class="promo">
             <div class="promo-item"></div>
             <div class="promo-item"></div>
             <div class="promo-item"></div>
         </div>
       </section>
+<!-- Что такое ГБО (2 контейнер) -->
       <section class="what-gbo">
+<!-- картинка -->
         <div class="what-gbo-img">
             <img src="./assets/Rectangle 68.png" alt="">
         </div>
         <div>
+<!-- текст тело -->
             <h2>Что такое ГБО?</h2>
             <p>Газобалонное оборудование — это дополнительное газовое оборудование, которое устанавливают на бензиновые автомобили, чтобы они могли использовать в виде топлива как бензин, так и газ.</p>
             <p>В качестве резервуара для топлива используется газовый баллон. Принцип действия заключается в переключении топлива с бензина на газ автоматически или по выбору водителя без внесения заметных изменений в принципы работы двигателя и сохраняя его динамику и мощность.</p>
         </div>
       </section>
+<!-- Зачем ставить ГБО (3) контейнер -->
       <section class="why-gbo">
+<!-- заголовок -->
         <div class="why-gbo-text">
             <h2>Зачем ставить ГБО и какие у него плюсы?</h2>
             <p>Перечислим основные причины, по которым ставят газовое оборудование на автомобили:</p>
         </div>
         <div class="why-gbo-wrap">
-        <div class="why-gbo-block1">
           <div class="why-gbo-item">
             <div class="why-gbo-item-img">
                 <img src="./assets/save-money 1.svg" alt="">
@@ -88,7 +103,6 @@
                 <h3>Мотор служит дольше</h3>
                 <p>Газомоторное топливо прогорает в двигателе целиком без остатка, за счёт чего вероятность выхода мотора из строя снижается</p>
             </div>    
-        </div>
           <div class="why-gbo-item">
             <div class="why-gbo-item-img">
                 <img src="./assets/thumb-up 1.svg" alt="">
@@ -97,9 +111,7 @@
                 <h3>Двигатель работает мягче и плавнее</h3>
                 <p>Газомоторное топливо по октановому числу выше бензина</p>
             </div>    
-        </div>
-          </div>
-        <div class="why-gbo-block2">  
+        </div>  
         <div class="why-gbo-item">
             <div class="why-gbo-item-img">
                 <img src="./assets/free-icon-jerrycan-3347952 1.svg" alt="">
@@ -127,16 +139,17 @@
                 <p>В процессе сгорания газ выделяет меньше вредных веществ, чем бензин</p>
             </div>    
         </div>
-        </div>
       </section>
-      <section class="calc">
-        <div class="calc-text">
+<!-- калькулятор контейнер-->
+      <section class="calc-container">
+<!-- заголовок калькулятора-->
+        <div class="calc-title">
             <h2 class="">Какой будет экономия?</h2>
             <p class="">Вы можете воспользоваться нашим калькулятором, чтобы подсчитать Вашу выгоду</p>
         </div>    
+<!-- тело калькулятора -->
         <div class="calc-wrap">
-          <div class="calc-string1">
-            <div class="calc-item">
+            <div class="calc-item first-column">
                 <h3>Стоимость переоборудования</h3>
                 <p></p>
                 <div class="slider"></div>
@@ -146,9 +159,7 @@
                 <p></p>
                 <div class="slider"></div>
             </div>
-          </div>
-          <div class="calc-string2">
-            <div class="calc-item">
+            <div class="calc-item first-column">
                 <h3>Расход бензина на 100км</h3>
                 <p></p>
                 <div class="slider"></div>
@@ -160,9 +171,7 @@
                 <label for="gas">Газ</label>
                 <input type="text" id="gas" name="gas" required minlength="4" maxlength="8" size="10" />
             </div>
-          </div>
-          <div class="calc-string3">
-            <div class="calc-item-radio">
+            <div class="calc-item-radio first-column">
                 <h3>Тип топлива</h3>
                 <div class="form-radio">
                   <input type="radio" id="propan" value="propan" checked />
@@ -188,7 +197,7 @@
                   <label for="entity">Юридическое лицо</label>  
                 </div>
             </div>
-          </div>
+<!-- нижняя строка -->
             <div class="calc-item-checkbox">
                 <h3>Программа субсидирования</h3>
                 <label>
@@ -204,6 +213,7 @@
                   Государственная программа субсидрования
                 </label>
             </div>
+<!-- Результат -->
             <div class="calc-item-result">
                 <h3>Ваша экономия</h3>
                 <p>За год:</p>
@@ -217,11 +227,10 @@
           Популярные мифы о ГБО
         </h2>
         <div class="gbo-myth">
-        <div class="gbo-myth-string1">
           <h3>«ГБО занижает мощность двигателя»</h3>
           <p>Снижение показателей не превышает 6%, что является незначительной потерей на фоне многочисленных преимуществ. Плюс ко всему увеличивается тяга на низких оборотах.</p>
         </div>
-        <div class="gbo-myth-string1">
+        <div class="gbo-myth">
           <h3>«Для ГБО нужно много места»</h3>
           <p>Если устанавливать баллон в багажник, то можно использовать баллон тороидальной формы и установить его на место запаски. Можно рассмотреть вариант установки газового баллона и 2-х под днище автомобиля или вместо запасного колеса, что не противоречит правилам.</p>
         </div>
