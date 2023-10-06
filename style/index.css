@@ -1,63 +1,23 @@
-/* .centered {
+
+.header-wrap {
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
-.flex {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+.header-menu {
+    text-align: center;
 }
 
-.flex2  {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: baseline;
-}
+/* (1) Баннер */
 
-.what-gbo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.h2-calc {
-    display: flex;
-    justify-content: center;
-
-.calc-wrap {
-   
-}
-
-.popular-myth {
-    display: flex;
-}
-
-.gbo-myth {
-    display: flex;
-    flex-direction: column;
-}
-
-.string1 {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
-.string2 {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-} */
-
-.header-wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.banner {
+    background-color:#F2F2F2;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -70,12 +30,6 @@
 }
 
 
-.banner {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-}
-
 .banner-body {
     display: flex;
     flex-direction: row;
@@ -83,7 +37,10 @@
     justify-content: baseline;
 }
 
+/* (2) Что такое ГБО */
+
 .what-gbo {
+    background-color: #E8F0EA;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -92,7 +49,10 @@
     flex-wrap: nowrap;
 }
 
+/*  (3) Зачем ставить ГБО */
+
 .why-gbo {
+    background-color: #F2F2F2;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -105,56 +65,55 @@
     align-content: center;
 }
 
-.why-gbo-block1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
+/* (4) Калькулятор */
 
-.why-gbo-block2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.calc {
+.calc-container {
+    background-color: #E8F0EA;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
-.calc-text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.calc-string1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.calc-string2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.calc-string3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.calc-item-result {
-    /* перенести на правую сторону наверх */
-}
+/* (5) Популярные мифы */
 
 .popular-myth {
+    background-color: #F2F2F2;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
+/* (6) Какой газ выбрать Таблица */
+
+.type-gbo {
+    background-color: #E8F0EA;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+/* (7) Вопросы */
+
+.questions {
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+/*  (8) Партнеры */
+.partners {
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+/*  footer  */
+
+.footer-wrap {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
