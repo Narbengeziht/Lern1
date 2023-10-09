@@ -39,21 +39,23 @@
     flex-wrap: wrap;
 }
 
+.banner-container {
+    display: flex;
+ 
+}
 
 .banner-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+  
 }
 
 .banner-picture {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-end;
     width: 50%;
+
 }
 
 /* (2) Что такое ГБО */
@@ -84,6 +86,18 @@
     align-content: center;
 }
 
+.why-gbo-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.why-gbo-item {
+    width: 33%;
+}
+
 /* (4) Калькулятор */
 
 .calc-container {
@@ -93,7 +107,42 @@
     max-width: 1200px;
 }
 
+.calc-first-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.calc-second-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-column {
+
+}
+
+
+.calc-wrap-column {
+    display: flex;
+    flex-direction: row;
+}
+
 /* (5) Популярные мифы */
+
+.gbo-myth-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gbo-myth {
+    width: 50%;
+}
 
 .popular-myth {
     background-color: #F2F2F2;
@@ -103,6 +152,10 @@
 }
 
 /* (6) Какой газ выбрать Таблица */
+
+.gbo-table tr:nth-child(2n+1) {
+    background-color: #fff;
+}
 
 .type-gbo {
     background-color: #E8F0EA;
