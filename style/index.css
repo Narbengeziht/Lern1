@@ -15,8 +15,13 @@
     align-items: center;
 }
 
-.header-menu {
-    text-align: center;
+.empty {
+    flex-grow: 1;
+}
+
+.header_menu ul{
+    display: flex;
+    list-style: none;
 }
 
 .header_exit {
@@ -28,15 +33,17 @@
 
 .banner {
     background-color:#F2F2F2;
+}
+
+.banner .banner_wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
-.breadcrumps {
+.breadcrumps ul{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    list-style: none;
 }
 
 .banner-container {
@@ -59,9 +66,11 @@
 }
 
 /* (2) Что такое ГБО */
-
-.what-gbo {
+.what_gbo {
     background-color: #E8F0EA;
+}
+
+.what_gbo .what_gbo_wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -72,18 +81,24 @@
 
 /*  (3) Зачем ставить ГБО */
 
-.why-gbo {
+.why_gbo {
     background-color: #F2F2F2;
+}
+
+.why_gbo .why_gbo_wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
-.why-gbo-text {
-    display: flex;
+
+
+.why_gbo_text {
+    text-align: center;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: center; */
 }
 
 .why-gbo-wrap {
@@ -100,11 +115,19 @@
 
 /* (4) Калькулятор */
 
-.calc-container {
+.calc_container {
     background-color: #E8F0EA;
+    
+}
+
+.calc_container .calc_body {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+}
+
+.calc_container .calc_body .calc_title {
+    text-align: center;
 }
 
 .calc-first-column {
@@ -134,51 +157,94 @@
 
 /* (5) Популярные мифы */
 
-.gbo-myth-wrap {
+.popular_myth {
+    background-color: #F2F2F2;
+}
+
+.popular_myth h2{
+    display: flex;
+    justify-content: center;
+}
+
+.popular_myth .gbo_myth_wrap {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.gbo-myth {
-    width: 50%;
-}
-
-.popular-myth {
-    background-color: #F2F2F2;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+}
+
+.popular_myth .gbo_myth_wrap .gbo_myth {
+    width: 50%;
 }
 
 /* (6) Какой газ выбрать Таблица */
 
-.gbo-table tr:nth-child(2n+1) {
-    background-color: #fff;
+.type_gbo {
+    background-color: #E8F0EA;
 }
 
-.type-gbo {
-    background-color: #E8F0EA;
+.type_gbo .type_gbo_wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
+
+.type_gbo .type_gbo_wrap .type_gbo_title {
+    text-align: center;
+
+}
+
+
+.type_gbo .type_gbo_wrap .gbo_table tr:nth-child(2n+1) {
+    background-color: #fff;
+}
+
+
+.footnote_table {
+
+}
+
 
 /* (7) Вопросы */
 
 .questions {
     background-color: #F2F2F2;
+    
+}
+
+.questions .questions_wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
+.questions .questions_wrap h2{
+    text-align: center;
+}
+
 /*  (8) Партнеры */
 .partners {
     background-color: #F2F2F2;
+}
+
+.partners .partners_container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+}
+
+.partners .partners_container .partners_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.partners .partners_container .partners_wrap img{
+    margin: 10px;
+ 
 }
 
 /*  footer  */
@@ -189,3 +255,16 @@
     margin-right: auto;
     max-width: 1200px;
 }
+
+
+
+
+
+
+/* 
+1 Почеуму белые полосы между блоками
+
+2 Почему сноска в таблице не вконце
+
+3 Работа с партнерами
+*/
