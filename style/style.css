@@ -76,6 +76,7 @@
 
 .banner-container {
     display: flex;
+    min-height: 571px;
  
 }
 
@@ -83,6 +84,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
 }
 
 .banner_body p{
@@ -94,6 +96,8 @@
     margin-bottom: 20px;
 }
 
+
+
 h1{
     font-size: 44px;
     max-width: 563px;
@@ -102,6 +106,10 @@ h1{
 
 .banner_picture {
     display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 144px;
+    right: 77px;
 }
 
 /* (2) Что такое ГБО */
