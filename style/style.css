@@ -1,5 +1,5 @@
 
-.header-wrap {
+.header_wrap {
     background-color:#FFFFFF;
     display: flex;
     flex-direction: row;
@@ -10,24 +10,45 @@
     max-width: 1200px;
 }
 
-.header_logo {
+.header_wrap .header_logo {
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+    margin-top: 26px;
+    margin-bottom: 18px;
 }
 
-.empty {
+
+.header_wrap .empty {
     flex-grow: 1;
 }
 
-.header_menu ul{
+.header_wrap .header_menu{
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.header_wrap .header_menu ul{
     display: flex;
     list-style: none;
 }
 
-.header_exit {
+.header_wrap .header_menu li{
+    padding-right: 25px;
+}
+
+.header_wrap .header_exit {
     display: flex;
     align-items: center;
+
 }
+
+.header_wrap .header_exit button{
+    border: 0;
+    background-color: #fff;
+}
+    
 
 /* (1) Баннер */
 
@@ -41,9 +62,16 @@
     max-width: 1200px;
 }
 
-.breadcrumps ul{
+.banner .breadcrumps ul{
     display: flex;
     list-style: none;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.banner .breadcrumps li{
+    padding-right: 20px;
 }
 
 .banner-container {
@@ -51,18 +79,29 @@
  
 }
 
-.banner-body {
+.banner_body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  
 }
 
-.banner-picture {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
+.banner_body p{
+    max-width: 598px;
+    margin-top: 0;
+}
 
+.banner_body h1{
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 44px;
+    max-width: 563px;
+    max-height: 159px;
+}
+
+.banner_picture {
+    display: flex;
 }
 
 /* (2) Что такое ГБО */
@@ -77,6 +116,18 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.what_gbo .what_gbo_wrap .what_gbo_img{
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 83px;
+    margin-bottom: 173px;
+}
+
+.what_gbo .what_gbo_wrap .what_gbo_text{
+    text-align: center;
+    max-width: 320px;
 }
 
 /*  (3) Зачем ставить ГБО */
