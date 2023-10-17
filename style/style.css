@@ -106,10 +106,26 @@ h1{
 
 .banner_picture {
     display: flex;
+    border-radius: 30px;
     position: absolute;
     z-index: 1;
-    top: 144px;
-    right: 77px;
+    right: 364px;
+    top: 212px;
+    height: 19%;
+}
+
+.banner_picture img{
+    border-radius: 4%;
+}
+
+.banner_body_picture{
+    display: flex;
+    position: absolute;
+    right: 338px;
+    top: 178px;
+    height: 23%;
+}
+
 }
 
 /* (2) Что такое ГБО */
