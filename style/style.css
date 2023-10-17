@@ -18,12 +18,11 @@
     margin-bottom: 18px;
 }
 
-
 .header_wrap .empty {
     flex-grow: 1;
 }
 
-.header_wrap .header_menu{
+.header_wrap .header_menu {
     display: flex;
     align-items: center;
     margin-right: 22px;
@@ -41,14 +40,20 @@
 .header_wrap .header_exit {
     display: flex;
     align-items: center;
-
 }
 
-.header_wrap .header_exit button{
+.header_wrap .header_exit button {
     border: 0;
     background-color: #fff;
+    display: flex;
+    align-items: center;
 }
-    
+   
+.header_wrap .header_exit img{
+    display: flex;
+    align-items: center;
+}
+
 
 /* (1) Баннер */
 
@@ -74,20 +79,18 @@
     padding-right: 20px;
 }
 
-.banner-container {
+.banner_container {
     display: flex;
-    min-height: 571px;
- 
+    min-height: 576px;
 }
 
-.banner_body {
+.banner_container .banner_body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
 
-.banner_body p{
+.banner_container .banner_body p{
     max-width: 598px;
     margin-top: 0;
 }
@@ -96,36 +99,50 @@
     margin-bottom: 20px;
 }
 
-
-
-h1{
-    font-size: 44px;
-    max-width: 563px;
-    max-height: 159px;
-}
-
-.banner_picture {
-    display: flex;
-    border-radius: 30px;
-    position: absolute;
-    z-index: 1;
-    right: 364px;
-    top: 212px;
-    height: 19%;
-}
-
-.banner_picture img{
-    border-radius: 4%;
-}
-
-.banner_body_picture{
+.banner_container .banner_picture {
     display: flex;
     position: absolute;
-    right: 338px;
-    top: 178px;
-    height: 23%;
+    right: 334px;
+    top: 176px;
+
 }
 
+.banner_container .banner_frame {
+    background-color: black;
+    border: 24px solid black; 
+    border-radius: 36px;
+    box-sizing: border-box;
+}
+
+.banner_container .banner_frame ::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 35px;
+    height: 5px;
+    top: -4px;
+    left: 100px;
+    border-radius: 15px;
+}
+
+.banner_container .banner_frame ::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 35px;
+    height: 5px;
+    top: -4px;
+    left: 60px;
+    border-radius: 15px;
+}
+
+.banner_container .banner_frame .banner_picture_wrap {
+    overflow: hidden;
+    border-radius: 24px;
+    height: 311px;
+    width: 497px;
 }
 
 /* (2) Что такое ГБО */
@@ -142,14 +159,14 @@ h1{
     flex-wrap: nowrap;
 }
 
-.what_gbo .what_gbo_wrap .what_gbo_img{
+.what_gbo .what_gbo_wrap .what_gbo_img {
     display: flex;
     flex-shrink: 0;
     margin-top: 83px;
     margin-bottom: 173px;
 }
 
-.what_gbo .what_gbo_wrap .what_gbo_text{
+.what_gbo .what_gbo_wrap .what_gbo_text {
     text-align: center;
     max-width: 320px;
 }
