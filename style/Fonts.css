@@ -32,3 +32,12 @@ h1{
     font-weight: 400;
     line-height: 140%; /* 28px */
 }
+
+.banner_container .banner_body .buttons_banner .details{
+    color: var(--white, #FFF);
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
